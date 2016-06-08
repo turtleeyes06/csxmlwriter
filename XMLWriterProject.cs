@@ -22,7 +22,7 @@ namespace XmlWriterProject
             objectList = new ArrayList();
 
             XmlDocument doc = new XmlDocument();
-            doc.Load("C:\\Users\\ncarroll\\Desktop\\LevelListTemplate.xml");
+            doc.Load("C:\\Users\\*\\Desktop\\LevelListTemplate.xml");
             XmlElement item, objectType, objectName, posX, posY;
 
             objectList.Add(new GameObject("k"));
@@ -84,7 +84,7 @@ namespace XmlWriterProject
             //end loop
 
 
-            doc.Save("C:\\Users\\ncarroll\\Desktop\\DemoLevel.xml");
+            doc.Save("C:\\Users\\*\\Desktop\\DemoLevel.xml");
             
         }
 
